@@ -93,8 +93,7 @@ public class LtrfLogbackAppender<E> extends AppenderBase<E>{
 		}catch(Exception e)
 		{
 			System.out.println(e);
-		}
-		
+		}		
 	}
 
 	private String trackable(String message) {
